@@ -6,4 +6,4 @@ WORKDIR /app
 
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
-ENTRYPOINT ["nginx -g daemon off", "/app/entrypoint.sh"]
+ENTRYPOINT ["nginx -g daemon off"]
