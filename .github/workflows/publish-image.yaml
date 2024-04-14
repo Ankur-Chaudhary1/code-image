@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: build
         run: |
-          docker build . t ankurchaudhary1/hello-docker-hub:latest
+          docker build . -t ankurchaudhary1/hello-docker-hub:latest
       - name: publish_image
         run: |
           docker push ankurchaudhary1/hello-docker-hub:latest
