@@ -1,4 +1,4 @@
-FROM alpine
+FROM nginx
 
 RUN apk add --no-cache bash
 
